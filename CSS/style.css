@@ -27,7 +27,7 @@ p{
 
 /* Navigator bari uchun stillar */
 #navigatorBar{
-    background-color: #333;
+    background-color: #2a3c47;
     overflow: auto;
 }
 
@@ -64,13 +64,13 @@ p{
 
 
 #navigatorBar ul li a:hover{
-    background-color:chocolate;
+    background-color:#fff;
     color: black;
 }
 
 /* Umimiy stillar */
 .text-color-1{
-    color: chocolate;
+    color: #FFD700;
 }
 
 .btn{
@@ -81,7 +81,7 @@ p{
 }
 
 .btn:hover{
-    background-color: chocolate;
+    background-color:white;
     color: black;
 }
 
