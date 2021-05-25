@@ -1,0 +1,68 @@
+/* Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Asosiy stillar */
+
+html, body{
+    font-family: sans-serif;
+}
+
+a{
+    color: #333;
+    text-decoration: none;
+}
+
+h1, h2, h3{
+    padding-bottom: 20px;
+}
+
+p{
+    margin: 10px 0;
+}
+
+#navigatorBar{
+    background-color: #333;
+    overflow: auto;
+}
+
+#navigatorBar a{
+    color: #fff;
+}
+
+/* Navogator Bar h1 */
+
+#navigatorBar h1{
+    float: left;
+    padding-top: 20px;
+}
+
+#navigatorBar ul{
+    float: right;
+    list-style: none;
+}
+
+#navigatorBar ul li {
+    float: left;
+}
+
+
+#navigatorBar ul li a{
+    display: inline-block;
+    padding: 25px;
+}
+
+.container-1{
+    width: 70%;
+    margin: auto;
+}
+
+
+#navigatorBar ul li a:hover{
+    background-color:chocolate;
+    color: black;
+}
