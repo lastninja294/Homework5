@@ -25,6 +25,7 @@ p{
     margin: 10px 0;
 }
 
+/* Navigator bari uchun stillar */
 #navigatorBar{
     background-color: #333;
     overflow: auto;
@@ -65,4 +66,59 @@ p{
 #navigatorBar ul li a:hover{
     background-color:chocolate;
     color: black;
+}
+
+/* Umimiy stillar */
+.text-color-1{
+    color: chocolate;
+}
+
+.btn{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+}
+
+.btn:hover{
+    background-color: chocolate;
+    color: black;
+}
+
+
+.clr{
+    clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Showcase uchun Stillar */
+#showpanel{
+    background-image: url(../Images/backhome.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+}
+
+#showpanel .container-2{
+    text-align: center;
+    color: #fff;
+    padding-top: 200px;
+}
+
+#showpanel h1{
+    font-size: 60px;
+}
+
+#showpanel p{
+    padding-bottom: 20px;
 }
