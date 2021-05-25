@@ -74,10 +74,9 @@ p{
 }
 
 .btn{
-    background-color: #333;
+    background-color: #2a3c47;
     color: #fff;
     padding: 10px 15px;
-    border: none;
 }
 
 .btn:hover{
@@ -85,10 +84,21 @@ p{
     color: black;
 }
 
+.btn-light{
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+}
+
+.btn-light:hover{
+    background-color: #2a3c47;
+    color: white;
+}
 
 .clr{
     clear: both;
 }
+
 
 
 
@@ -106,13 +116,19 @@ p{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 650px;
+    height: 750px;
 }
 
 #showpanel .container-2{
     text-align: center;
     color: #fff;
-    padding-top: 200px;
+    padding-top: 130px;
+}
+
+#showpanel .container-3{
+    text-align: center;
+    color: #fff;
+    padding-top: 130px;
 }
 
 #showpanel h1{
@@ -122,3 +138,9 @@ p{
 #showpanel p{
     padding-bottom: 20px;
 }
+
+
+
+
+
+
